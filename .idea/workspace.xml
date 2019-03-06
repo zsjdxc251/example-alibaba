@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2af14a-5771-45ec-a475-7e16a3b96261" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/example-alibaba-fescar/example-alibaba-fescar-quickstart/src/main/java/com/lesson/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-alibaba-fescar/example-alibaba-fescar-quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example-alibaba-fescar/example-alibaba-fescar-quickstart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-alibaba-fescar/example-alibaba-fescar-quickstart/src/main/java/com/lesson/alibaba/fescar/quickstart/FescarQuickstartBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/example-alibaba-fescar/example-alibaba-fescar-quickstart/src/main/java/com/lesson/alibaba/fescar/quickstart/FescarQuickstartBootstrap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,82 +25,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1631296988">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="694" />
-          <entry key="properties" value="294" />
-          <entry key="xml" value="140" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="694" />
-          <entry key="PLAIN_TEXT" value="294" />
-          <entry key="XML" value="140" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="26" />
-          <entry key="java" value="86" />
-          <entry key="json" value="3" />
-          <entry key="properties" value="36" />
-          <entry key="xml" value="31" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="26" />
-          <entry key="JAVA" value="86" />
-          <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="36" />
-          <entry key="XML" value="31" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example-alibaba-fescar/example-alibaba-fescar-quickstart/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example-alibaba-fescar/example-alibaba-fescar-quickstart/src/main/java/com/lesson/alibaba/fescar/quickstart/FescarQuickstartBootstrap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example-alibaba-fescar/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,15 +44,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../20171217/example-interview" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../20171217/example-support" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../20171217/spring-framework-5.0.4.RELEASE" value="PREVIEW" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -271,8 +189,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -288,41 +206,6 @@
               <item name="example-alibaba" type="b2602c69:ProjectViewProjectNode" />
               <item name="example-alibaba" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="example-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="example-alibaba-fescar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="example-alibaba-fescar" type="462c0819:PsiDirectoryNode" />
-              <item name="example-alibaba-fescar-quickstart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="example-alibaba-fescar" type="462c0819:PsiDirectoryNode" />
-              <item name="example-alibaba-fescar-quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="example-alibaba-fescar" type="462c0819:PsiDirectoryNode" />
-              <item name="example-alibaba-fescar-quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="example-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="example-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="example-alibaba-fescar" type="462c0819:PsiDirectoryNode" />
-              <item name="example-alibaba-fescar-quickstart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -330,7 +213,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551710324314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551776767338" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -348,9 +232,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NacosConfigConsumerBootstrap">
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="Application.FescarQuickstartBootstrap">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FescarQuickstartBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lesson.alibaba.fescar.quickstart.FescarQuickstartBootstrap" />
+      <module name="example-alibaba-fescar-quickstart" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lesson.alibaba.fescar.quickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -409,7 +307,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -417,11 +315,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -430,9 +328,11 @@
       <item itemvalue="Application.NacosQuickstartBootstrap" />
       <item itemvalue="Application.NacosConfigProviderBootstrap" />
       <item itemvalue="Application.NacosConfigConsumerBootstrap" />
+      <item itemvalue="Application.FescarQuickstartBootstrap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FescarQuickstartBootstrap" />
         <item itemvalue="Application.NacosConfigConsumerBootstrap" />
         <item itemvalue="Application.NacosConfigProviderBootstrap" />
         <item itemvalue="Application.NacosQuickstartBootstrap" />
@@ -454,24 +354,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info id="DB Browser" />
+      <window_info id="Project Explorer" />
+      <window_info id="Job Explorer" />
       <window_info id="Structure" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24093817" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.12313433" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="TODO" order="0" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.2703583" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.39262474" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.20607375" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.36225596" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Messages" order="6" visible="true" weight="0.29967427" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.29967427" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Ant Build" order="2" />
@@ -503,9 +409,6 @@
       <window_info anchor="right" id="Palette" order="5" />
     </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="debuggerHistoryManager">
     <expressions id="customField">
       <expression>
@@ -516,20 +419,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.10.RELEASE/spring-core-5.0.10.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.0.0.RELEASE/spring-cloud-config-server-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1403">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.10.RELEASE/spring-core-5.0.10.RELEASE.jar!/org/springframework/core/io/Resource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -537,13 +426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="138" column="11" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Properties.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-client/2.0.0.RELEASE/spring-cloud-config-client-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/config/environment/PropertySource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -565,13 +448,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE.jar!/org/springframework/cloud/alibaba/nacos/NacosConfigProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE.jar!/org/springframework/cloud/alibaba/nacos/NacosConfigProperties.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.10.RELEASE/spring-beans-5.0.10.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -603,13 +480,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0.jar!/com/alibaba/nacos/client/config/NacosConfigService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0.jar!/com/alibaba/nacos/client/config/NacosConfigService.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.10.RELEASE/spring-context-5.0.10.RELEASE-sources.jar!/org/springframework/context/support/PropertySourcesPlaceholderConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -624,97 +495,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/0.3.0/nacos-api-0.3.0-sources.jar!/com/alibaba/nacos/api/PropertyKeyConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/reflect/NativeConstructorAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/reflect/DelegatingConstructorAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="422" selection-start-line="422" selection-end-line="422" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/nacos/NacosConfigAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0-sources.jar!/com/alibaba/nacos/client/config/impl/ServerHttpAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="245" column="25" selection-start-line="245" selection-start-column="25" selection-end-line="245" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0-sources.jar!/com/alibaba/nacos/client/config/impl/ClientWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="409" column="11" selection-start-line="409" selection-start-column="11" selection-end-line="409" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/0.3.0/nacos-api-0.3.0-sources.jar!/com/alibaba/nacos/api/config/ConfigFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/0.3.0/nacos-api-0.3.0-sources.jar!/com/alibaba/nacos/api/NacosFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0-sources.jar!/com/alibaba/nacos/client/config/impl/ServerListManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/nacos/refresh/NacosContextRefresher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/nacos/client/NacosPropertySourceLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/0.3.0/nacos-api-0.3.0-sources.jar!/com/alibaba/nacos/api/PropertyKeyConst.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/reflect/NativeConstructorAccessorImpl.class" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/sun/reflect/DelegatingConstructorAccessorImpl.class" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/reflect/Constructor.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/nacos/NacosConfigAutoConfiguration.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0-sources.jar!/com/alibaba/nacos/client/config/impl/ServerHttpAgent.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0-sources.jar!/com/alibaba/nacos/client/config/impl/ClientWorker.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/0.3.0/nacos-api-0.3.0-sources.jar!/com/alibaba/nacos/api/config/ConfigFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/0.3.0/nacos-api-0.3.0-sources.jar!/com/alibaba/nacos/api/NacosFactory.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0-sources.jar!/com/alibaba/nacos/client/config/impl/ServerListManager.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/0.3.0/nacos-client-0.3.0-sources.jar!/com/alibaba/nacos/client/config/NacosConfigService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/nacos/refresh/NacosContextRefresher.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/nacos/client/NacosPropertySourceLocator.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.0.0.RELEASE/spring-cloud-context-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/bootstrap/config/PropertySourceBootstrapConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -826,46 +619,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/nacos/NacosConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3306">
-          <caret line="265" selection-start-line="265" selection-end-line="265" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/javax/transaction/xa/XAResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/javax/transaction/xa/Xid.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.2.0.RELEASE/spring-cloud-alibaba-nacos-config-0.2.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/nacos/NacosConfigProperties.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/javax/transaction/xa/XAResource.class" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/javax/transaction/xa/Xid.class" />
     <entry file="file://$PROJECT_DIR$/example-alibaba-fescar/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example-alibaba-fescar/example-alibaba-fescar-quickstart/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="456">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/javax/transaction/xa/XAResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example-alibaba-fescar/example-alibaba-fescar-quickstart/src/main/java/com/lesson/alibaba/fescar/quickstart/FescarQuickstartBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="277">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
       </provider>
     </entry>
   </component>
