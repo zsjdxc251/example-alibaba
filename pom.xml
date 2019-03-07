@@ -12,6 +12,7 @@
     <module>example-alibaba-cloud</module>
       <module>example-alibaba-boot</module>
       <module>example-alibaba-fescar</module>
+	  <module>example-alibaba-sentinel</module>
   </modules>
 
   <name>example-alibaba</name>
