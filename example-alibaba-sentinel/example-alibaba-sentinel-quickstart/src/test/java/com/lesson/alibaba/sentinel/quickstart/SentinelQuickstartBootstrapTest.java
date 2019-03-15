@@ -7,11 +7,13 @@ import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 public class SentinelQuickstartBootstrapTest {
 
 	private static void initFlowRules(){
@@ -27,21 +29,19 @@ public class SentinelQuickstartBootstrapTest {
 
 	@Test
 	public void test1() {
+
+		System.setProperty("csp.sentinel.dashboard.server","127.0.0.1:8080");
 		// 配置规则.
 		initFlowRules();
-		while (true) {
-			Entry entry = null;
-			try {
-				entry = SphU.entry("HelloWorld");
-				// 资源中的逻辑.
-				System.out.println("hello world");
 
-			} catch (BlockException e1) {
-				System.out.println("blocked!");
-			} finally {
-				if (entry != null) {
-					entry.exit();
-				}
+		while (true) {
+			// 1.5.0 版本开始可以直接利用 try-with-resources 特性
+			try (Entry entry = SphU.entry("HelloWorld")) {
+				// 被保护的逻辑
+				log.info("hello world");
+			} catch (BlockException ex) {
+				// 处理被流控的逻辑
+				log.info("blocked!");
 			}
 		}
 
@@ -50,7 +50,7 @@ public class SentinelQuickstartBootstrapTest {
 	@SentinelResource("HelloWorld")
 	public void helloWorld() {
 		// 资源中的逻辑
-		System.out.println("hello world");
+		log.info("hello world");
 	}
 
 }
