@@ -1,6 +1,7 @@
 package com.lesson.alibaba.sentinel.quickstart;
 
 import com.alibaba.csp.sentinel.Entry;
+import com.alibaba.csp.sentinel.SphO;
 import com.alibaba.csp.sentinel.SphU;
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
@@ -33,10 +34,11 @@ public class SentinelQuickstartBootstrapTest {
 		System.setProperty("csp.sentinel.dashboard.server","127.0.0.1:8080");
 		// 配置规则.
 		initFlowRules();
-
+		SphO sphO;
 		while (true) {
 			// 1.5.0 版本开始可以直接利用 try-with-resources 特性
 			try (Entry entry = SphU.entry("HelloWorld")) {
+
 				// 被保护的逻辑
 				log.info("hello world");
 			} catch (BlockException ex) {
