@@ -16,7 +16,16 @@
 
 	<modules>
 		<module>example-alibaba-sentinel-quickstart</module>
+
 	</modules>
 
+
+	<dependencies>
+		<dependency>
+			<groupId>com.alibaba.csp</groupId>
+			<artifactId>sentinel-core</artifactId>
+			<version>1.5.0</version>
+		</dependency>
+	</dependencies>
 
 </project>
