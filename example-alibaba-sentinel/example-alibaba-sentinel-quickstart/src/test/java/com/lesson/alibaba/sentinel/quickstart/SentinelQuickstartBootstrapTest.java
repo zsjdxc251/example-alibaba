@@ -72,7 +72,7 @@ public class SentinelQuickstartBootstrapTest {
 		List<DegradeRule> degradeRules = new ArrayList<>();
 		DegradeRule degradeRule = new DegradeRule();
 		degradeRule.setResource("1212");
-		degradeRule.setCount(10);
+		degradeRule.setCount(8);
 		degradeRule.setGrade(RuleConstant.DEGRADE_GRADE_RT);
 		degradeRule.setTimeWindow(20);
 		degradeRules.add(degradeRule);
@@ -82,7 +82,7 @@ public class SentinelQuickstartBootstrapTest {
 	@Test
 	public void test2() throws InterruptedException {
 		initDegradeRule();
-		IntStream.range(0,10).forEach(value -> {
+		IntStream.range(0,30).forEach(value -> {
 			new Thread(()->{
 				Entry entry = null;
 
