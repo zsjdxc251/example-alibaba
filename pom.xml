@@ -13,6 +13,7 @@
 		<module>example-alibaba-boot</module>
 		<module>example-alibaba-fescar</module>
 		<module>example-alibaba-sentinel</module>
+		<module>example-alibaba-rocketmq</module>
 	</modules>
 
 	<name>example-alibaba</name>
