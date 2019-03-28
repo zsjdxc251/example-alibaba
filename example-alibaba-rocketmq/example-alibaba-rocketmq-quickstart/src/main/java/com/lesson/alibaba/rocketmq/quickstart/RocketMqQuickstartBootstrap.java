@@ -1,7 +1,7 @@
 package com.lesson.alibaba.rocketmq.quickstart;
 
 /**
- *  sh mqbroker &
+ *  sh mqnamesrv &
  *  sh mqbroker -n localhost:9876 autoCreateTopicEnable=true &
  *
  * @author zhengshijun

@@ -1,0 +1,17 @@
+
+
+server:
+  port: 9638
+
+spring:
+  application:
+    name: rocketmq-bus-provider
+
+  cloud:
+    bus:
+      id: ${spring.application.name}
+      destination: asetku-japan-env-change-topic
+    stream:
+      rocketmq:
+        binder:
+          namesrvAddr: 121.196.232.248:9876

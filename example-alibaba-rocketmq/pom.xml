@@ -10,10 +10,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>example-alibaba-rocketmq</artifactId>
+	<packaging>pom</packaging>
 
 	<name>example-alibaba-rocketmq</name>
 
 	<modules>
 		<module>example-alibaba-rocketmq-quickstart</module>
+		<module>example-alibaba-rocketmq-bus-provider</module>
+		<module>example-alibaba-rocketmq-bus-consumer</module>
+		<module>example-alibaba-rocketmq-bus-api</module>
 	</modules>
 </project>

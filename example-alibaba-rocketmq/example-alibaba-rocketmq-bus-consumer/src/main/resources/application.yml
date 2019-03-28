@@ -1,0 +1,19 @@
+
+server:
+  port: 9631
+
+spring:
+  application:
+    name: rocketmq-bus-consumer
+
+  cloud:
+    bus:
+      id: ${spring.application.name}
+      destination: asetku-japan-env-change-topic
+      trace:
+        enabled: true
+
+    stream:
+      rocketmq:
+        binder:
+          namesrvAddr: 121.196.232.248:9876
