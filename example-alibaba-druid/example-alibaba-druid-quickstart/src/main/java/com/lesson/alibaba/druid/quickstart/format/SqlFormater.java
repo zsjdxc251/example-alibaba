@@ -1,6 +1,7 @@
 package com.lesson.alibaba.druid.quickstart.format;
 
 import com.alibaba.druid.sql.SQLUtils;
+import com.alibaba.druid.sql.visitor.VisitorFeature;
 import com.alibaba.druid.util.JdbcConstants;
 
 /**
@@ -18,7 +19,7 @@ public class SqlFormater {
      */
     public static String sqlFormat(String sql) {
 
-        System.out.println( SQLUtils.formatMySql(sql));
+        System.out.println( SQLUtils.formatMySql(sql,new SQLUtils.FormatOption()));
         // 查询的SQL以及对应的SQL类型
         String result = SQLUtils.format(sql, JdbcConstants.MYSQL);
         // 查询的SQL以及对应的SQL类型以及具体大小写
