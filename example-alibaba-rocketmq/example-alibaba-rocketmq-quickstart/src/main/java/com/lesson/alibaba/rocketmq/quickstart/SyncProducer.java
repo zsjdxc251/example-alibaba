@@ -22,7 +22,7 @@ public class SyncProducer {
 				DefaultMQProducer("please_rename_unique_group_name");
 		// Specify name server addresses.
 
-		producer.setNamesrvAddr("121.196.232.248:9876");
+		producer.setNamesrvAddr("10.0.20.18:9876");
 
 
 		//Launch the instance.

@@ -1,0 +1,2 @@
+rocketmq:
+  nameServer: 10.0.20.18:9876

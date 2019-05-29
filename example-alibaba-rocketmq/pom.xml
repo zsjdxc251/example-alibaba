@@ -19,5 +19,6 @@
 		<module>example-alibaba-rocketmq-bus-provider</module>
 		<module>example-alibaba-rocketmq-bus-consumer</module>
 		<module>example-alibaba-rocketmq-bus-api</module>
+		<module>example-alibaba-rocketmq-boot</module>
 	</modules>
 </project>

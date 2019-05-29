@@ -21,10 +21,10 @@ public class Consumer {
 		DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("please_rename_unique_group_name");
 
 		// Specify name server addresses.
-		consumer.setNamesrvAddr("121.196.232.248:9876");
+		consumer.setNamesrvAddr("10.0.20.18:9876");
 
 		// Subscribe one more more topics to consume.
-		consumer.subscribe("TopicTest", "*");
+		consumer.subscribe("TopicTest", "ddddd");
 		// Register callback to execute on arrival of messages fetched from brokers.
 		consumer.registerMessageListener(new MessageListenerConcurrently() {
 
