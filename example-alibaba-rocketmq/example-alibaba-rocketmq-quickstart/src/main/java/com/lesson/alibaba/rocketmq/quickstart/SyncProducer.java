@@ -19,10 +19,10 @@ public class SyncProducer {
 	public static void main(String[] args) throws UnsupportedEncodingException, MQClientException, RemotingException, InterruptedException, MQBrokerException {
 		//Instantiate with a producer group name.
 		DefaultMQProducer producer = new
-				DefaultMQProducer("please_rename_unique_group_name");
+				DefaultMQProducer("please_rename_unique_group_name222");
 		// Specify name server addresses.
 
-		producer.setNamesrvAddr("10.0.20.18:9876");
+		producer.setNamesrvAddr("54.67.43.31:9876");
 
 
 		//Launch the instance.
@@ -32,7 +32,7 @@ public class SyncProducer {
 		// producer.createTopic(producer.getCreateTopicKey(),"TopicTest",100);
 		for (int i = 0; i < 100; i++) {
 			//Create a message instance, specifying topic, tag and message body.
-			Message msg = new Message("TopicTest" /* Topic */,
+			Message msg = new Message("TopicTest22222" /* Topic */,
 					"TagA" /* Tag */,
 					("Hello RocketMQ " +i).getBytes(RemotingHelper.DEFAULT_CHARSET) /* Message body */
 			);
