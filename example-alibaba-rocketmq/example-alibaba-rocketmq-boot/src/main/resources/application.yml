@@ -1,2 +1,8 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null
 rocketmq:
-  nameServer: 10.0.20.18:9876
+  nameServer: 121.196.232.248:9876
+  producer:
+    group: group1
+    send-message-timeout: 30000

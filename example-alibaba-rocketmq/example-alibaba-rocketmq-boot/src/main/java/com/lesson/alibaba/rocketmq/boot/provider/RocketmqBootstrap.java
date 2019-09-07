@@ -1,5 +1,7 @@
-package com.lesson.alibaba.rocketmq.boot;
+package com.lesson.alibaba.rocketmq.boot.provider;
 
+import com.lesson.alibaba.rocketmq.boot.ResultApi;
+import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
@@ -16,7 +18,7 @@ import java.util.Map;
  * @author zhengshijun
  * @version created on 2019/5/29.
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.lesson.alibaba.rocketmq.boot.provider")
 public class RocketmqBootstrap {
 
 
@@ -30,8 +32,14 @@ public class RocketmqBootstrap {
 
 		return  args -> {
 
-			Map<String,String> map = new HashMap<>();
-			rocketMQTemplate.convertAndSend("TopicTest",map);
+
+			ResultApi<ResultApi<String>> resultApi = new ResultApi<>();
+			resultApi.setData(new ResultApi<>());
+			SendResult sendResult =  rocketMQTemplate.syncSend("TopicTest123",resultApi);
+
+			System.out.println(sendResult);
+
+
 
 		};
 	}
