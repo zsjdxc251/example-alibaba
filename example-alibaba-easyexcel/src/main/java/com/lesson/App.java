@@ -19,48 +19,34 @@ public class App {
 	public static void main(String[] args) {
 
 
-		EasyExcel.read(new File("D:\\tmp\\优惠券.xlsx")).sheet().autoTrim(Boolean.TRUE).registerReadListener(new AnalysisEventListener<HashMap<Integer,String>>(){
-
-					@Override
-					public void invoke(HashMap<Integer, String> integerStringHashMap, AnalysisContext analysisContext) {
-
-						System.out.println(integerStringHashMap);
-
-					}
-
-					@Override
-					public void doAfterAllAnalysed(AnalysisContext analysisContext) {
-
-						System.out.println(analysisContext);
-
-					}
-				}).doRead();
+		List<Object> list = EasyExcel.read(new File("D:\\tmp\\优惠券发放\\优惠券-11042.xlsx")).sheet().autoTrim(Boolean.TRUE).doReadSync();
 
 
 
-//		Splitter splitter = Splitter.on("\n");
-//		Splitter.MapSplitter keyValue = splitter.withKeyValueSeparator(":");
-//		list
-//				.stream()
-//				.filter(o -> o instanceof HashMap)
-//				.map(o -> (HashMap<Integer, String>) o)
-//				.forEach(o -> {
-//					checkValue(o.get(2),o.get(5),o.get(6),keyValue.split(o.get(8)));
-//				});
+		Splitter splitter = Splitter.on("\n");
+		Splitter.MapSplitter keyValue = splitter.withKeyValueSeparator(":");
+		list
+				.stream()
+				.filter(o -> o instanceof HashMap)
+				.map(o -> (HashMap<Integer, String>) o)
+				.forEach(o -> {
+					checkValue(o.get(3),o.get(6),o.get(6),keyValue.split(o.get(8)));
+				});
 	}
 
 	private static void checkValue(String uid,String discount,String minAmount, Map<String,String> split) {
+		System.out.println(uid+"-"+discount+"-"+split);
 		if (!Objects.equals(uid,split.get("uid"))){
-			throw new IllegalArgumentException();
+			throw new IllegalArgumentException(uid+":"+split.get("uid"));
 		}
 
 		if (!Objects.equals(discount,split.get("discount"))){
-			throw new IllegalArgumentException();
+			throw new IllegalArgumentException(discount+":"+split.get("discount"));
 		}
 
-		if (!Objects.equals(minAmount,split.get("minAmount"))){
-			throw new IllegalArgumentException();
-		}
+//		if (!Objects.equals(minAmount,split.get("minAmount"))){
+//			throw new IllegalArgumentException(minAmount+":"+split.get("minAmount"));
+//		}
 
 	}
 }

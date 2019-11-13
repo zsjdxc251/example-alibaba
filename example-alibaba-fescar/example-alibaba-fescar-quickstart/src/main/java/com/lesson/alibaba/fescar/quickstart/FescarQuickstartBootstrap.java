@@ -20,10 +20,10 @@ public class FescarQuickstartBootstrap {
 	public static void main(String[] args) throws SQLException {
 
 
-		MysqlXADataSource dataSourceOne = getDataSource("jdbc:mysql://10.0.20.4:3306/test1", "root", "123456");
+		MysqlXADataSource dataSourceOne = getDataSource("jdbc:mysql://0.0.0.0:3306/test1", "root", "123456");
 
 
-		MysqlXADataSource dataSourceTwo = getDataSource("jdbc:mysql://10.0.20.4:3306/asetku-japan", "root", "123456");
+		MysqlXADataSource dataSourceTwo = getDataSource("jdbc:mysql://0.0.0.0:3306/test1", "root", "123456");
 
 
 		XAConnection xaConnectionOne = dataSourceOne.getXAConnection();
