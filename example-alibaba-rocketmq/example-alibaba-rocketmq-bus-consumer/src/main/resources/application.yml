@@ -9,7 +9,7 @@ spring:
   cloud:
     bus:
       id: ${spring.application.name}
-      destination: asetku-japan-env-change-topic
+      destination: zsjdxc251-japan-env-change-topic
       trace:
         enabled: true
 
