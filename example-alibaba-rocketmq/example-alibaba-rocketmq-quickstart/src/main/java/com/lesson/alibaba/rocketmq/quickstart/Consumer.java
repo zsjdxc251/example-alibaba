@@ -22,7 +22,7 @@ public class Consumer {
 		DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("please_rename_unique_group_name");
 
 		// Specify name server addresses.
-		consumer.setNamesrvAddr("121.196.232.248:9876");
+		consumer.setNamesrvAddr("192.168.1.4:9876");
 		consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
 		// Subscribe one more more topics to consume.
 		consumer.subscribe("TopicTest", "*");
